@@ -1,0 +1,43 @@
+/* employee-create-edit.css */
+
+.employee-create-edit-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .employee-create-edit-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .employee-create-edit-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .employee-create-edit-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .employee-create-edit-container input,
+  .employee-create-edit-container select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .employee-create-edit-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-create-edit-container button:hover {
+    background-color: #0056b3;
+  }

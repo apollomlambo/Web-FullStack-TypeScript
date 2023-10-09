@@ -25,3 +25,132 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.login-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.employee-create-edit-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.employee-create-edit-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.employee-create-edit-container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.employee-create-edit-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.employee-create-edit-container input,
+.employee-create-edit-container select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.employee-create-edit-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.employee-create-edit-container button:hover {
+  background-color: #0056b3;
+}
+.departments-create-edit-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.departments-create-edit-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.departments-create-edit-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.departments-create-edit-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.departments-create-edit-container input,
+.departments-create-edit-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.departments-create-edit-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.departments-create-edit-container button:hover {
+  background-color: #0056b3;
+}
